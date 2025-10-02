@@ -1,0 +1,21 @@
+{{#each projets}}
+<section>
+  <h1 class="line">{{this.nom}}</h1>
+  <p>{{this.description}}</p>
+  <div class="grid">
+    {{#each this.projets}}
+    <div class="card fade-in">
+      <h3>{{titre}}</h3>
+      <div class="socials">
+        {{#each socials}}
+        <a href="{{this.lien}}" target="_blank">
+          <i class="fab fa-{{this.nom}}"></i></a>
+        {{/each}}
+      </div>
+      <p>{{description}}</p>
+      <p><strong>Status:</strong> {{statut}}</p>
+    </div>
+    {{/each}}
+  </div>
+</section>
+{{/each}}

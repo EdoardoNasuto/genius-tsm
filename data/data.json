@@ -1,0 +1,519 @@
+{
+  "infos": {
+    "name": "GENIUS TSM",
+    "logo": "genius.png",
+    "description": "L’association pour les étudiants et entrepreneurs de Toulouse School of Management 🚀",
+    "slogan": "Libérer les génies de demain 💡",
+    "year": 2025,
+    "email": "ajonathank1@gmail.com"
+  },
+  "menu": [
+    {
+      "titre": "Accueil",
+      "lien": "index.html"
+    },
+    {
+      "titre": "Calendrier",
+      "lien": "calendrier.html"
+    },
+    {
+      "titre": "Équipe",
+      "lien": "equipe.html"
+    },
+    {
+      "titre": "Projets",
+      "lien": "projets.html"
+    },
+    {
+      "titre": "Partenaires",
+      "lien": "partenaires.html"
+    },
+    {
+      "titre": "Contact",
+      "lien": "contact.html"
+    }
+  ],
+  "socials": [
+    {
+      "nom": "instagram",
+      "lien": "https://www.instagram.com/geniustsm"
+    },
+    {
+      "nom": "linkedin",
+      "lien": "https://www.linkedin.com/company/geniustsm/"
+    },
+    {
+      "nom": "spotify",
+      "lien": "https://open.spotify.com/show/4rdEeLJf8yxIFes0VPsI0T?si=H8_oZiFWQqOlHyL---52LQ&nd=1&dlsi=50c73c2160f24931"
+    }
+  ],
+  "calendrier": [
+    {
+      "date": "2025-09-04",
+      "event": {
+        "title": "Réunion équipe",
+        "description": "10h00 - 11h00 dans la salle A"
+      }
+    },
+    {
+      "date": "2025-09-07",
+      "event": {
+        "title": "Anniversaire de Marie",
+        "description": "Fête à 19h00"
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "event": {
+        "title": "Projet Deadline",
+        "description": "Soumission finale du projet"
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "event": {
+        "title": "Conférence",
+        "description": "En ligne à 14h00"
+      }
+    }
+  ],
+  "equipe": [
+    {
+      "nom": "Bureau",
+      "description": "Des passionnés prêts à guider les jeunes entrepreneurs vers le succès.",
+      "membres": [
+        {
+          "nom": "Alice Dupont",
+          "role": "Présidente",
+          "photo": "femme.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "nom": "Marc Leroy",
+          "role": "Trésorier",
+          "photo": "membre.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "nom": "Fatima Benali",
+          "role": "Secrétaire",
+          "photo": "femme.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "nom": "Fatima ",
+          "role": "Secrétaire",
+          "photo": "femme.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nom": "Évènementiel",
+      "description": "Des passionnés prêts à guider les jeunes entrepreneurs vers le succès.",
+      "membres": [
+        {
+          "nom": "Alice Dupont",
+          "role": "Présidente",
+          "photo": "femme.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "nom": "Marc Leroy",
+          "role": "Trésorier",
+          "photo": "membre.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "nom": "Fatima Benali",
+          "role": "Secrétaire",
+          "photo": "femme.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nom": "Communication",
+      "description": "Des passionnés prêts à guider les jeunes entrepreneurs vers le succès.",
+      "membres": [
+        {
+          "nom": "Alice Dupont",
+          "role": "Présidente",
+          "photo": "femme.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "nom": "Marc Leroy",
+          "role": "Trésorier",
+          "photo": "membre.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "nom": "Fatima Benali",
+          "role": "Secrétaire",
+          "photo": "femme.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nom": "Programme START",
+      "description": "Des passionnés prêts à guider les jeunes entrepreneurs vers le succès.",
+      "membres": [
+        {
+          "nom": "Alice Dupont",
+          "role": "Présidente",
+          "photo": "femme.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "nom": "Marc Leroy",
+          "role": "Trésorier",
+          "photo": "membre.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "nom": "Fatima Benali",
+          "role": "Secrétaire",
+          "photo": "femme.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nom": "Programme BOOST",
+      "description": "Des passionnés prêts à guider les jeunes entrepreneurs vers le succès.",
+      "membres": [
+        {
+          "nom": "Alice Dupont",
+          "role": "Présidente",
+          "photo": "femme.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "nom": "Marc Leroy",
+          "role": "Trésorier",
+          "photo": "membre.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "nom": "Fatima Benali",
+          "role": "Secrétaire",
+          "photo": "femme.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partenaires": [
+    {
+      "nom": "Entreprise A",
+      "logo": "img/sponsor1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+      "socials": [
+        {
+          "nom": "instagram",
+          "lien": "https://www.instagram.com/geniustsm"
+        },
+        {
+          "nom": "linkedin",
+          "lien": "https://www.linkedin.com/company/geniustsm/"
+        }
+      ]
+    },
+    {
+      "nom": "Entreprise B",
+      "logo": "img/sponsor2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+      "socials": [
+        {
+          "nom": "instagram",
+          "lien": "https://www.instagram.com/geniustsm"
+        },
+        {
+          "nom": "linkedin",
+          "lien": "https://www.linkedin.com/company/geniustsm/"
+        }
+      ]
+    },
+    {
+      "nom": "Entreprise C",
+      "logo": "img/sponsor3.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+      "socials": [
+        {
+          "nom": "instagram",
+          "lien": "https://www.instagram.com/geniustsm"
+        },
+        {
+          "nom": "linkedin",
+          "lien": "https://www.linkedin.com/company/geniustsm/"
+        }
+      ]
+    }
+  ],
+  "projets": [
+    {
+      "nom": "Actuel",
+      "description": "Projets que nous accompagnons actuellement",
+      "projets": [
+        {
+          "titre": "Projet A",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "statut": "En cours",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "titre": "Projet B",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "statut": "En cours",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "titre": "Projet C",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "statut": "En cours",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nom": "Passés",
+      "description": "Projets que nous avons fait décoler",
+      "projets": [
+        {
+          "titre": "Projet A",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "statut": "En cours",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "titre": "Projet B",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "statut": "En cours",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        },
+        {
+          "titre": "Projet C",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "statut": "En cours",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm"
+            },
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/company/geniustsm/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

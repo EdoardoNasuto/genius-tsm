@@ -1,0 +1,260 @@
+<section>
+  <h1 class="line" id="month-year"></h1>
+  <div class="calendar-nav">
+    <button id="prev-month">&lt; Précédent</button>
+    <button id="next-month">Suivant &gt;</button>
+  </div>
+
+  <div class="weekdays">
+    <div>Lun</div>
+    <div>Mar</div>
+    <div>Mer</div>
+    <div>Jeu</div>
+    <div>Ven</div>
+    <div>Sam</div>
+    <div>Dim</div>
+  </div>
+
+  <div class="calendar" id="calendar"></div>
+</section>
+
+<div id="event-container" style="display:none;"></div>
+<!-- Popup global -->
+<div id="global-popup"></div>
+
+<!-- Template Handlebars pour injecter les événements -->
+<script id="calendar-data-template" type="text/x-handlebars-template">
+  {{#each calendrier}}
+    <div class="event-data" data-date="{{date}}" data-title="{{event.title}}" data-desc="{{event.description}}"></div>
+  {{/each}}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/fr.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+
+<script>
+  dayjs.locale('fr');
+
+  // 1️⃣ Compiler et injecter le template
+  const templateSource = document.getElementById('calendar-data-template').innerHTML;
+  const template = Handlebars.compile(templateSource);
+  document.getElementById('event-container').innerHTML = template(window.calendrierJSON);
+
+  // Préparer un lookup rapide des événements
+  const eventsLookup = {};
+  document.querySelectorAll('.event-data').forEach(el => {
+    const date = el.dataset.date;
+    eventsLookup[date] = { title: el.dataset.title, desc: el.dataset.desc };
+  });
+
+  const calendarEl = document.getElementById('calendar');
+  const monthYearEl = document.getElementById('month-year');
+  let currentDate = dayjs();
+  const popupEl = document.getElementById('global-popup');
+
+  // 2️⃣ Fonction de rendu du calendrier optimisée
+  function renderCalendar(date) {
+    calendarEl.innerHTML = '';
+    const monthStart = date.startOf('month');
+    const daysInMonth = date.daysInMonth();
+    const firstDay = monthStart.day() - 1; // Lun = 0
+
+    const monthName = date.format('MMMM');
+    monthYearEl.textContent = monthName.charAt(0).toUpperCase() + monthName.slice(1) + ' ' + date.format('YYYY');
+
+
+    const fragment = document.createDocumentFragment();
+
+    // cellules vides
+    for (let i = 0; i < firstDay; i++) {
+      fragment.appendChild(document.createElement('div'));
+    }
+
+    for (let day = 1; day <= daysInMonth; day++) {
+      const dayEl = document.createElement('div');
+      dayEl.className = 'card day-card';
+      const fullDate = date.date(day).format('YYYY-MM-DD');
+
+      const eventData = eventsLookup[fullDate];
+      dayEl.innerHTML = `
+      <div class="day-number">${day}</div>
+      ${eventData ? '<div class="event-indicator"></div>' : ''}
+    `;
+
+      if (eventData) {
+        dayEl.addEventListener('click', () => {
+          const rect = dayEl.getBoundingClientRect();
+          popupEl.innerHTML = `<div class="card"><h3>${eventData.title}</h3><p>${eventData.desc}</p></div>`;
+          popupEl.style.top = `${rect.bottom + window.scrollY}px`;
+          popupEl.style.left = `${rect.left + rect.width / 2}px`;
+          popupEl.style.transform = 'translateX(-50%)';
+
+          if (popupEl.classList.contains('show')) {
+            popupEl.classList.remove('show');
+            setTimeout(() => (popupEl.style.display = 'none'), 300);
+          } else {
+            popupEl.style.display = 'block';
+            requestAnimationFrame(() => popupEl.classList.add('show'));
+          }
+        });
+      }
+
+      fragment.appendChild(dayEl);
+    }
+
+    calendarEl.appendChild(fragment);
+
+    // Déclencher l'animation des cartes visibles
+    requestAnimationFrame(() => {
+      calendarEl.querySelectorAll('.day-card').forEach((el, i) => {
+        el.style.transitionDelay = `${i * 20}ms`;
+        el.classList.add('visible');
+      });
+    });
+  }
+
+  // 3️⃣ Navigation mois
+  function changeMonth(diff) {
+    currentDate = currentDate.add(diff, 'month');
+    renderCalendar(currentDate);
+    if (popupEl.classList.contains('show')) {
+      popupEl.classList.remove('show');
+      setTimeout(() => (popupEl.style.display = 'none'), 300);
+    }
+  }
+
+  document.getElementById('prev-month').addEventListener('click', () => changeMonth(-1));
+  document.getElementById('next-month').addEventListener('click', () => changeMonth(1));
+
+  // 4️⃣ Rendu initial
+  renderCalendar(currentDate);
+
+  // 5️⃣ Fermer le popup si on clique ailleurs
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.day-card') && !e.target.closest('#global-popup')) {
+      if (popupEl.classList.contains('show')) {
+        popupEl.classList.remove('show');
+        setTimeout(() => (popupEl.style.display = 'none'), 300);
+      }
+    }
+  });
+</script>
+
+<style>
+  .calendar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: 15px;
+  }
+
+  .calendar-nav button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: var(--text-light);
+    border: none;
+    border-radius: 5px;
+    transition: background 0.2s;
+  }
+
+  .calendar-nav button:hover {
+    background: var(--primary-hover);
+  }
+
+  .weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .weekdays div {
+    font-weight: bold;
+    color: var(--primary-color);
+    text-align: center;
+  }
+
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+
+  .day-card {
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px var(--shadow-color);
+    min-height: 62.2px;
+  }
+
+  .day-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .day-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px var(--shadow-color);
+  }
+
+  .day-number {
+    font-weight: bold;
+    color: var(--accent-color);
+  }
+
+  .event-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    margin: 0 auto 5px auto;
+  }
+
+  /* Popup global avec animation */
+  #global-popup {
+    position: absolute;
+    display: none;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  #global-popup.show {
+    display: block;
+    opacity: 1;
+  }
+
+  #global-popup .card {
+    padding: 10px;
+    background: var(--background-color);
+    color: var(--text-primary);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px var(--shadow-color);
+  }
+
+  @media (max-width: 768px) {
+
+    .calendar,
+    .weekdays {
+      gap: 5px;
+    }
+
+    .day-card {
+      padding: 5px;
+      min-height: 52.2px;
+    }
+
+    #global-popup .card {
+      width: 180px;
+    }
+
+    .calendar-nav button {
+      font-size: 0.8rem;
+    }
+  }
+</style>

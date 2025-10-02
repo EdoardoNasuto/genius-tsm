@@ -1,0 +1,50 @@
+{
+  "type": "Categorization",
+  "elements": [
+    {
+      "type": "Category",
+      "label": "Informations générales",
+      "elements": [
+        { "type": "Control", "scope": "#/properties/infos/properties/name" },
+        { "type": "Control", "scope": "#/properties/infos/properties/logo" },
+        {
+          "type": "Control",
+          "scope": "#/properties/infos/properties/description"
+        },
+        { "type": "Control", "scope": "#/properties/infos/properties/slogan" },
+        { "type": "Control", "scope": "#/properties/infos/properties/year" },
+        { "type": "Control", "scope": "#/properties/infos/properties/email" }
+      ]
+    },
+    {
+      "type": "Category",
+      "label": "Menu",
+      "elements": [{ "type": "Control", "scope": "#/properties/menu" }]
+    },
+    {
+      "type": "Category",
+      "label": "Socials",
+      "elements": [{ "type": "Control", "scope": "#/properties/socials" }]
+    },
+    {
+      "type": "Category",
+      "label": "Calendrier",
+      "elements": [{ "type": "Control", "scope": "#/properties/calendrier" }]
+    },
+    {
+      "type": "Category",
+      "label": "Équipe",
+      "elements": [{ "type": "Control", "scope": "#/properties/equipe" }]
+    },
+    {
+      "type": "Category",
+      "label": "Partenaires",
+      "elements": [{ "type": "Control", "scope": "#/properties/partenaires" }]
+    },
+    {
+      "type": "Category",
+      "label": "Projets",
+      "elements": [{ "type": "Control", "scope": "#/properties/projets" }]
+    }
+  ]
+}

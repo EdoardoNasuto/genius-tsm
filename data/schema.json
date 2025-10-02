@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "infos",
+    "menu",
+    "socials",
+    "calendrier",
+    "equipe",
+    "partenaires",
+    "projets"
+  ],
+  "properties": {
+    "infos": {
+      "type": "object",
+      "required": ["name", "logo", "description", "slogan", "year", "email"],
+      "properties": {
+        "name": { "type": "string" },
+        "logo": { "type": "string" },
+        "description": { "type": "string" },
+        "slogan": { "type": "string" },
+        "year": { "type": "integer" },
+        "email": { "type": "string", "format": "email" }
+      },
+      "additionalProperties": false
+    },
+
+    "menu": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/menuItem" }
+    },
+
+    "socials": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/social" }
+    },
+
+    "calendrier": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": { "type": "string", "format": "date" },
+          "event": { "$ref": "#/$defs/event" }
+        },
+        "required": ["date", "event"]
+      }
+    },
+
+    "equipe": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["nom", "description", "membres"],
+        "properties": {
+          "nom": { "type": "string" },
+          "description": { "type": "string" },
+          "membres": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/member" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+
+    "partenaires": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["nom", "logo", "description", "socials"],
+        "properties": {
+          "nom": { "type": "string" },
+          "logo": { "type": "string" },
+          "description": { "type": "string" },
+          "socials": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/social" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+
+    "projets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["nom", "description", "projets"],
+        "properties": {
+          "nom": { "type": "string" },
+          "description": { "type": "string" },
+          "projets": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/projectItem" }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+
+  "additionalProperties": false,
+
+  "$defs": {
+    "social": {
+      "type": "object",
+      "required": ["nom", "lien"],
+      "properties": {
+        "nom": {
+          "type": "string",
+          "enum": ["instagram", "linkedin", "spotify", "facebook", "youtube"]
+        },
+        "lien": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    },
+
+    "menuItem": {
+      "type": "object",
+      "required": ["titre", "lien"],
+      "properties": {
+        "titre": { "type": "string" },
+        "lien": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+
+    "event": {
+      "type": "object",
+      "required": ["title", "description"],
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+
+    "member": {
+      "type": "object",
+      "required": ["nom", "role", "photo", "description", "socials"],
+      "properties": {
+        "nom": { "type": "string" },
+        "role": { "type": "string" },
+        "photo": { "type": "string" },
+        "description": { "type": "string" },
+        "socials": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/social" }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "projectItem": {
+      "type": "object",
+      "required": ["titre", "description", "statut", "socials"],
+      "properties": {
+        "titre": { "type": "string" },
+        "description": { "type": "string" },
+        "statut": {
+          "type": "string",
+          "enum": ["En cours", "Terminé", "À venir"]
+        },
+        "socials": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/social" }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

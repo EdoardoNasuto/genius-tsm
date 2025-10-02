@@ -1,0 +1,21 @@
+<section>
+  <h1 class="line">Nos Partenaires</h1>
+  <p style="text-align:center; margin-bottom:40px;" class="text-secondary">Nos
+    partenaires nous aident à concrétiser nos projets et à accompagner les
+    étudiants.</p>
+  <div class="grid">
+    {{#each partenaires}}
+    <div class="card fade-in">
+      <img src="{{logo}}" alt="{{nom}}" />
+      <h3>{{nom}}</h3>
+      <div class="socials">
+        {{#each socials}}
+        <a href="{{this.lien}}" target="_blank">
+          <i class="fab fa-{{this.nom}}"></i></a>
+        {{/each}}
+      </div>
+      <p class="text-secondary">{{description}}</p>
+    </div>
+    {{/each}}
+  </div>
+</section>

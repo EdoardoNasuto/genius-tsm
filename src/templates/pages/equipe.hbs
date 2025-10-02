@@ -1,0 +1,22 @@
+{{#each equipe}}
+<section>
+  <h1 class="line">{{nom}}</h1>
+  <p>{{description}}</p>
+  <div class="grid">
+    {{#each membres}}
+    <div class="card fade-in">
+      <img src="images/{{photo}}" alt="{{nom}}" />
+      <h3>{{nom}}</h3>
+      <p>{{role}}</p>
+      <div class="socials">
+        {{#each socials}}
+        <a href="{{this.lien}}" target="_blank">
+          <i class="fab fa-{{this.nom}}"></i></a>
+        {{/each}}
+      </div>
+      <p>{{description}}</p>
+    </div>
+    {{/each}}
+  </div>
+</section>
+{{/each}}
