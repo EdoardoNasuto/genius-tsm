@@ -166,7 +166,31 @@
               "nom": "linkedin",
               "lien": "https://www.linkedin.com/in/edoardo-nasuto/"
             }
-          ]        
+          ]
+        },
+        {
+          "nom": "...",
+          "role": "...",
+          "photo": "...",
+          "description": "...",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm/"
+            }
+          ]
+        },
+        {
+          "nom": "...",
+          "role": "...",
+          "photo": "...",
+          "description": "...",
+          "socials": [
+            {
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/geniustsm/"
+            }
+          ]
         }
       ]
     }
