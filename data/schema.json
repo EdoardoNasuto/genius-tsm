@@ -109,7 +109,7 @@
       "properties": {
         "nom": {
           "type": "string",
-          "enum": ["instagram", "linkedin", "spotify", "facebook", "youtube"]
+          "enum": ["instagram", "linkedin", "spotify", "facebook", "youtube", "chrome"]
         },
         "lien": { "type": "string", "format": "uri" }
       },

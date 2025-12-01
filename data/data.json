@@ -5,7 +5,7 @@
     "description": "L’association pour les étudiants et entrepreneurs de Toulouse School of Management 🚀",
     "slogan": "Libérer les génies de demain 💡",
     "year": 2025,
-    "email": "ajonathank1@gmail.com"
+    "email": "genius@tsm-education.fr"
   },
   "menu": [
     {
@@ -49,31 +49,17 @@
   ],
   "calendrier": [
     {
-      "date": "2025-09-04",
+      "date": "2025-10-27",
       "event": {
-        "title": "Réunion équipe",
-        "description": "10h00 - 11h00 dans la salle A"
+        "title": "Table Rouge",
+        "description": "18h à 20h | Amphi Dupeyroux à TSM"
       }
     },
-    {
-      "date": "2025-09-07",
+        {
+      "date": "2025-11-24",
       "event": {
-        "title": "Anniversaire de Marie",
-        "description": "Fête à 19h00"
-      }
-    },
-    {
-      "date": "2025-09-15",
-      "event": {
-        "title": "Projet Deadline",
-        "description": "Soumission finale du projet"
-      }
-    },
-    {
-      "date": "2025-09-22",
-      "event": {
-        "title": "Conférence",
-        "description": "En ligne à 14h00"
+        "title": "Food Event by Genius TSM",
+        "description": "18h30 à 20h | Amphi Dupeyroux à TSM"
       }
     }
   ],
@@ -83,382 +69,138 @@
       "description": "Des passionnés prêts à guider les jeunes entrepreneurs vers le succès.",
       "membres": [
         {
-          "nom": "Alice Dupont",
-          "role": "Présidente",
-          "photo": "femme.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "nom": "Thomas Gay",
+          "role": "Bureau",
+          "photo": "Thomas Gay.jpg",
+          "description": "Étudiant en Droit et Gestion, j'ai à cœur de mener des projets innovants et à fort impact !",
           "socials": [
             {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
               "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
+              "lien": "https://www.linkedin.com/in/thomas-gay-773600312/"
             }
           ]
         },
         {
-          "nom": "Marc Leroy",
-          "role": "Trésorier",
-          "photo": "membre.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "nom": "Léna Julliard",
+          "role": "Bureau",
+          "photo": "Léna Julliard.jpeg",
+          "description": "Audacieuse, persévérante et passionnée : je façonne ma vie à la hauteur de mes ambitions.",
           "socials": [
             {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
               "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
+              "lien": "https://www.linkedin.com/in/l%C3%A9na-julliard-104826322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             }
           ]
         },
         {
-          "nom": "Fatima Benali",
+          "nom": "...",
           "role": "Secrétaire",
-          "photo": "femme.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
-        },
-        {
-          "nom": "Fatima ",
-          "role": "Secrétaire",
-          "photo": "femme.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
+          "photo": "...",
+          "description": "...",
+          "socials": []
         }
       ]
     },
     {
       "nom": "Évènementiel",
       "description": "Des passionnés prêts à guider les jeunes entrepreneurs vers le succès.",
-      "membres": [
-        {
-          "nom": "Alice Dupont",
-          "role": "Présidente",
-          "photo": "femme.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
-        },
-        {
-          "nom": "Marc Leroy",
-          "role": "Trésorier",
-          "photo": "membre.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
-        },
-        {
-          "nom": "Fatima Benali",
-          "role": "Secrétaire",
-          "photo": "femme.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
-        }
-      ]
+      "membres": []
     },
     {
       "nom": "Communication",
       "description": "Des passionnés prêts à guider les jeunes entrepreneurs vers le succès.",
       "membres": [
         {
-          "nom": "Alice Dupont",
-          "role": "Présidente",
-          "photo": "femme.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "nom": "Albane Tondut",
+          "role": "Communication",
+          "photo": "Albane Tondut.jpeg",
+          "description": "Créative, déterminée et toujours prête à faire rayonner Genius TSM.",
           "socials": [
             {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/in/albane-tondut-6266722aa"
             },
             {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/albane.tdt"
             }
           ]
         },
         {
-          "nom": "Marc Leroy",
-          "role": "Trésorier",
-          "photo": "membre.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "nom": "Audrey Dogbé",
+          "role": "Communication",
+          "photo": "Audrey Dogbé.jpg",
+          "description": "Je suis une personne curieuse et observatrice, qui aime apprendre, partager et surtout découvrir de nouvelles choses ✨️",
           "socials": [
             {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
               "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
+              "lien": "https://www.linkedin.com/in/audrey-dogb%C3%A9-95b284276?utm_source=share_via&utm_content=profile&utm_medium=member_android"
             }
           ]
         },
         {
-          "nom": "Fatima Benali",
-          "role": "Secrétaire",
-          "photo": "femme.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
+          "nom": "...",
+          "role": "Chargé",
+          "photo": "...",
+          "description": "...",
+          "socials": []
         }
       ]
     },
     {
       "nom": "Programme START",
       "description": "Des passionnés prêts à guider les jeunes entrepreneurs vers le succès.",
-      "membres": [
-        {
-          "nom": "Alice Dupont",
-          "role": "Présidente",
-          "photo": "femme.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
-        },
-        {
-          "nom": "Marc Leroy",
-          "role": "Trésorier",
-          "photo": "membre.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
-        },
-        {
-          "nom": "Fatima Benali",
-          "role": "Secrétaire",
-          "photo": "femme.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
-        }
-      ]
+      "membres": []
     },
     {
       "nom": "Programme BOOST",
       "description": "Des passionnés prêts à guider les jeunes entrepreneurs vers le succès.",
-      "membres": [
-        {
-          "nom": "Alice Dupont",
-          "role": "Présidente",
-          "photo": "femme.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
-        },
-        {
-          "nom": "Marc Leroy",
-          "role": "Trésorier",
-          "photo": "membre.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
-        },
-        {
-          "nom": "Fatima Benali",
-          "role": "Secrétaire",
-          "photo": "femme.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
-        }
-      ]
+      "membres": []
     }
   ],
   "partenaires": [
     {
-      "nom": "Entreprise A",
-      "logo": "img/sponsor1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+      "nom": "TSM",
+      "logo": "TSM_Logo_Education.png",
+      "description": "Toulouse School of Management, partenaire académique de Genius TSM.",
       "socials": [
         {
-          "nom": "instagram",
-          "lien": "https://www.instagram.com/geniustsm"
-        },
-        {
           "nom": "linkedin",
-          "lien": "https://www.linkedin.com/company/geniustsm/"
+          "lien": "https://www.linkedin.com/school/toulouse-school-of-management/"
         }
       ]
     },
     {
-      "nom": "Entreprise B",
-      "logo": "img/sponsor2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+      "nom": "Université Capitole",
+      "logo": "Logo_UTCapitole_Carre_Web-RVB_M.jpg",
+      "description": "Université Toulouse Capitole, soutien institutionnel de Genius TSM.",
       "socials": [
         {
-          "nom": "instagram",
-          "lien": "https://www.instagram.com/geniustsm"
-        },
-        {
           "nom": "linkedin",
-          "lien": "https://www.linkedin.com/company/geniustsm/"
+            "lien": "https://www.linkedin.com/school/universit%C3%A9-toulouse-1-capitole/"
         }
       ]
     },
     {
-      "nom": "Entreprise C",
-      "logo": "img/sponsor3.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-      "socials": [
-        {
-          "nom": "instagram",
-          "lien": "https://www.instagram.com/geniustsm"
-        },
-        {
-          "nom": "linkedin",
-          "lien": "https://www.linkedin.com/company/geniustsm/"
-        }
-      ]
+      "nom": "...",
+      "logo": "...",
+      "description": "...",
+      "socials": []
     }
   ],
   "projets": [
     {
       "nom": "Actuel",
       "description": "Projets que nous accompagnons actuellement",
-      "projets": [
+      "projets": [     
         {
-          "titre": "Projet A",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
+          "titre": "Titouan Renaud",
+          "description": "Prestataire de service en communication dans l'esport",
           "statut": "En cours",
           "socials": [
             {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
               "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
-        },
-        {
-          "titre": "Projet B",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "statut": "En cours",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
-            }
-          ]
-        },
-        {
-          "titre": "Projet C",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "statut": "En cours",
-          "socials": [
-            {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
+              "lien": "https://www.linkedin.com/in/titouan-renaud-03b350304/"
             }
           ]
         }
@@ -469,47 +211,39 @@
       "description": "Projets que nous avons fait décoler",
       "projets": [
         {
-          "titre": "Projet A",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "statut": "En cours",
+          "titre": "En Tracteur Simone",
+          "description": "En Tracteur Simone vient à vous, où que vous soyez en Occitanie. Passez un moment gourmand et convivial en équipe",
+          "statut": "Terminé",
           "socials": [
             {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
+              "nom": "chrome",
+              "lien": "https://en-tracteur-simone.com/"
             }
           ]
         },
         {
-          "titre": "Projet B",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "statut": "En cours",
+          "titre": "Roulotte - Coffee Shop Mobile",
+          "description": "Un coffee shop mobile qui rassemble autour de cafés de spécialité, de pâtisseries maison et de boissons de qualité.",
+          "statut": "Terminé",
           "socials": [
             {
               "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
-            },
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
+              "lien": "https://www.instagram.com/roulotte.coffee/"
             }
           ]
         },
         {
-          "titre": "Projet C",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nibh leo.",
-          "statut": "En cours",
+          "titre": "Vantard",
+          "description": "Une marque de vêtements indépendante qui va bien au-delà du streetwear classique.",
+          "statut": "Terminé",
           "socials": [
             {
-              "nom": "instagram",
-              "lien": "https://www.instagram.com/geniustsm"
+              "nom": "chrome",
+              "lien": "https://vantardclothing.com/"
             },
             {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/company/geniustsm/"
+              "nom": "instagram",
+              "lien": "https://www.instagram.com/vantard.clothing"
             }
           ]
         }
