@@ -69,6 +69,18 @@
       "description": "Des passionnés prêts à guider les jeunes entrepreneurs vers le succès.",
       "membres": [
         {
+          "nom": "Léna Julliard",
+          "role": "Présidente",
+          "photo": "Léna Julliard.jpeg",
+          "description": "Audacieuse, persévérante et passionnée : je façonne ma vie à la hauteur de mes ambitions.",
+          "socials": [
+            {
+              "nom": "linkedin",
+              "lien": "https://www.linkedin.com/in/l%C3%A9na-julliard-104826322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            }
+          ]
+        },
+                {
           "nom": "Thomas Gay",
           "role": "Vice-président",
           "photo": "Thomas Gay.jpg",
@@ -77,18 +89,6 @@
             {
               "nom": "linkedin",
               "lien": "https://www.linkedin.com/in/thomas-gay-773600312/"
-            }
-          ]
-        },
-        {
-          "nom": "Léna Julliard",
-          "role": "Présidente",
-          "photo": "Léna Julliard.jpeg",
-          "description": "Passionné, curieux et toujours de bonne humeur, je suis ravi d’accompagner des porteurs de projets.",
-          "socials": [
-            {
-              "nom": "linkedin",
-              "lien": "https://www.linkedin.com/in/l%C3%A9na-julliard-104826322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             }
           ]
         },
@@ -160,13 +160,13 @@
           "nom": "Edoardo Nasuto",
           "role": "Responsable",
           "photo": "Edoardo Nasuto.jpg",
-          "description": "Curieux et toujours de bonne humeur, je suis très content d'aider les autres",
+          "description": "Passionné, curieux et toujours de bonne humeur, je suis ravi d’accompagner des porteurs de projets.",
           "socials": [
             {
               "nom": "linkedin",
               "lien": "https://www.linkedin.com/in/edoardo-nasuto/"
             }
-          ]
+          ]        
         },
         {
           "nom": "...",
